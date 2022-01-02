@@ -38,7 +38,6 @@ public class demo01 {
                 int num = str2num(number);
                 System.out.println(num);
                 number = new StringBuffer();
-                continue;
             }
 
             else if ('A' <= ch && ch <= 'Z') {
@@ -50,7 +49,6 @@ public class demo01 {
                 } while ('A' <= ch && ch <= 'Z');
                 System.out.println(upper);
                 upper = new StringBuffer();
-                continue;
             }
 
             else if ('a' <= ch && ch <= 'z') {
@@ -62,7 +60,6 @@ public class demo01 {
                 }while('a' <= ch && ch <= 'z');
                 System.out.println(lower);
                 lower = new StringBuffer();
-                continue;
             }
         }
     }
